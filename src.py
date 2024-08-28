@@ -47,5 +47,5 @@ def classify_face(im):
         if cv2.waitKey(1) & 0xFF == ord('s'):
             return face_names
 
-print(classify_face("unkown3.jpg"))
+print(classify_face("VP")) #aqui se tiene que poner el nombre del archivo de la foto que se quiere analizar
 print("fin del programa")
